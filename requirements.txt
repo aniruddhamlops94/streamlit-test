@@ -1,0 +1,11 @@
+streamlit
+black
+altair
+pandas
+pydeck
+matplotlib
+numpy
+Pillow
+bs4
+pipenv
+xlrd
