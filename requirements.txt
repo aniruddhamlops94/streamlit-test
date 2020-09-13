@@ -9,3 +9,4 @@ Pillow
 bs4
 pipenv
 xlrd
+opencv-python
