@@ -18,8 +18,8 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 def main():
         #st.sidebar.markdown("![Alt Text](https://raw.githubusercontent.com/aniruddhachoudhury/AR-RL-/master/logo1.png)",)
-        #image = Image.open('website.png')
-        #st.image(image,use_column_width=True)
+        image = Image.open('website.png')
+        st.image(image,use_column_width=True)
         st.title("Computer Vision  Use Case")
         st.sidebar.subheader("Choose Computer Vision Model")
         model = st.sidebar.selectbox("Model", ("Pencil Sketch","Crop Image","Sharp Image","Color Spacer","Comic Reader"))
